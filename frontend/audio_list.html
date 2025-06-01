@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Мои аудиофайлы</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Мои аудиофайлы</h1>
+            <button id="exitButton" class="back-button">Назад</button>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <label for="searchInput">Поиск по названию</label>
+                <input type="text" id="searchInput" class="search-input" placeholder="Введите название файла...">
+            </div>
+            <div class="date-picker">
+                <label for="dateInput">Фильтр по дате</label>
+                <input type="date" id="dateInput" class="date-input">
+            </div>
+        </div>
+
+        <div id="loadingStatus" class="upload-status hidden">
+            Загрузка аудиофайлов...
+        </div>
+
+        <div id="audioGrid" class="audio-grid">
+            <div class="empty-state">У вас пока нет аудиофайлов</div>
+        </div>
+    </div>
+
+    <script src="js/audio_list.js"></script>
+</body>
+</html>

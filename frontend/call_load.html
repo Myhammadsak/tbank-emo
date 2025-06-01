@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Загрузка аудио</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="h1-text">Загрузка аудио</h1>
+
+        <div class="profile-box">
+            <div class="file-upload-section">
+                <label class="input-field-label">Выберите аудиофайл</label>
+                <div class="file-input-container">
+                    <div class="custom-file-input" id="customFileInput">
+                        <span id="fileLabelText">Выберите файл</span>
+                    </div>
+                    <input type="file" id="audioFile" class="native-file-input" accept="audio/*">
+                </div>
+                <div class="file-info" id="fileInfo"></div>
+            </div>
+
+            <div class="actions-container">
+                <button class="action-btn primary" id="uploadBtn" disabled>
+                    <span class="btn-icon">📤</span>
+                    <span>Загрузить</span>
+                </button>
+
+                <button class="action-btn logout" id="ExitButton">
+                    <span class="btn-icon">❌</span>
+                    <span>Назад</span>
+                </button>
+            </div>
+
+            <div class="upload-status" id="uploadStatus"></div>
+        </div>
+
+        <div class="support-container">
+            <div class="divider"></div>
+            <div class="support">
+                <strong>Поддержка</strong><br>
+                +790000000000<br>
+                @Support
+            </div>
+        </div>
+    </div>
+
+    <script src="js/call_load.js"></script>
+</body>
+</html>

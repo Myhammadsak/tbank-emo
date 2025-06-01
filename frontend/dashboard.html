@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Профиль</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="h1-text">Профиль</h1>
+
+        <div class="profile-box">
+            <div class="user-info">
+                <div class="user-details">
+                    <h2>Иван Иванов</h2>
+                    <p class="user-email">ivanov@example.com</p>
+                    <p class="user-role">Менеджер</p>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-value">24</span>
+                    <span class="stat-label">Обработано звонков</span>
+                </div>
+            </div>
+
+            <div class="actions-container">
+                <button class="action-btn primary" id="CallButton">
+                    <span class="btn-icon">☎ </span>
+                    <span>Добавить звонок</span>
+                </button>
+                <button class="action-btn" id="AudioButton">
+                    <span class="btn-icon">📊️</span>
+                    <span>Мои звонки</span>
+                </button>
+                <button class="action-btn logout" id="logoutButton">
+                    <span class="btn-icon">🚪</span>
+                    <span>Выйти</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="support-container">
+            <div class="divider"></div>
+            <div class="support">
+                <strong>Поддержка</strong><br>
+                +790000000000<br>
+                @Support
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
