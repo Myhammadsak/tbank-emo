@@ -1,5 +1,13 @@
 # tbank-emo  
 ## Запуск проекта  
+### Установка Mistral AI
+Для того чтобы запустить проект необходимо установить и запустить Mistral AI локально\
+Для этого надо [установить ollama](https://ollama.com/download), следуя инструкциям\
+После чего скачиваем и запускаем модель
+```bash
+ollama run mistral
+```
+***
 ### Запуск API
 \
 Необходимо перейти в корневую директорию проекта 'tbank-emo'
@@ -17,7 +25,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 ***
-### Доступные URL:  
+#### Доступные URL:  
 <http://127.0.0.1:8000/> - 8 новейших мероприятий\
 <http://127.0.0.1:8000/api/auth/registration/> - регистрация\
 <http://127.0.0.1:8000/api/auth/login/> - авторизация\
@@ -28,5 +36,5 @@ python manage.py runserver
 
 > Аккаунт админа: username: admin, password: 123
 ***
-## Запуск frontend
+### Запуск frontend
 Для запуска frontend части необходимо запустить API, после чего перейти в директорию frontend и запустить любой файл с разрешением .html
