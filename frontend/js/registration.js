@@ -51,7 +51,7 @@ document.getElementById('registerForm').addEventListener('submit', async functio
 
 
         setTimeout(() => {
-            window.location.href = 'http://localhost:63342/pythonProject16/frontend/login.html';
+            window.location.href = 'login.html';
         }, 10);
 
     } catch (error) {

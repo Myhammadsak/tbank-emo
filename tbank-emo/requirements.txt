@@ -6,7 +6,7 @@ charset-normalizer==3.4.2
 colorama==0.4.6
 distro==1.9.0
 dj-rest-auth==7.0.1
-Django==5.2.1
+Django==4.2.16
 django-allauth==65.8.0
 django-cors-headers==4.7.0
 django-rest-framework==0.1.0

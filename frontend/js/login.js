@@ -55,7 +55,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         messageDiv.className = 'success';
 
         setTimeout(() => {
-            window.location.href = 'http://localhost:63342/pythonProject16/frontend/dashboard.html';
+            window.location.href = 'dashboard.html';
         }, 10);
 
     } catch (error) {

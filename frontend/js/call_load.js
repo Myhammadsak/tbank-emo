@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     exitButton.addEventListener('click', function() {
-        window.location.href = 'http://localhost:63342/pythonProject16/frontend/dashboard.html';
+        window.location.href = 'dashboard.html';
     });
 
     async function handleFileSelect() {

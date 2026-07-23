@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     function redirectToLogin() {
-        window.location.href = 'http://localhost:63342/pythonProject16/frontend/login.html';
+        window.location.href = 'login.html';
     }
 
     function showError(message) {

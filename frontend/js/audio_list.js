@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const emptyState = document.querySelector('.empty-state');
 
     const API_BASE_URL = 'http://localhost:8000/api';
-    const DASHBOARD_URL = 'http://localhost:63342/pythonProject16/frontend/dashboard.html';
+    const DASHBOARD_URL = 'dashboard.html';
     const LOGIN_URL = 'login.html';
 
     let audioFiles = [];
